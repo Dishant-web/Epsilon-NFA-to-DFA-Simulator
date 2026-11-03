@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Interactive ε-NFA to DFA conversion simulator using the subset construction algorithm." />
+    <title>ε-NFA → DFA Conversion Simulator</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <p style="padding:24px">Loading simulator… (JavaScript is required.)</p>
+    </div>
+
+    <!-- Order matters: engine → renderer → UI controller -->
+    <script src="src/automata.js"></script>
+    <script src="src/diagram.js"></script>
+    <script src="src/app.js"></script>
+  </body>
+</html>
